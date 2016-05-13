@@ -1,0 +1,133 @@
+h1, h2, h3, h4, h5, h6, h7 {
+    padding:0;
+    margin:0;
+}
+
+ul, li {
+    list-style:none;
+    margin:0;
+}
+
+a {
+    text-decoration:none;
+    margin:0;
+}
+
+body {
+    background-image: url("../img/mix.jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    margin:0;
+    width:100%;
+    box-sizing:border-box;
+    background-size: cover;
+    padding:0;
+}
+
+.clearfix::before,
+.clearfix::after {
+    display:block;
+    content:"";
+    clear:both;
+}
+.button:hover{
+    background-color:#3ea8a4;
+
+
+}
+h2 {
+    color:white;
+    font-size:30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+section p {
+    color:white;
+    font-size:25px;
+    padding-left:50px;
+    padding-right:550px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.l img {
+    width:18%;
+    margin:10px;
+    height:auto;
+}
+
+.lo {
+    float:right;
+}
+
+.lo img {
+    width:88%;
+    height:auto;
+    margin:10px;
+    box-sizing:border-box;
+    border: 5px solid white;
+    border-radius: 7.5px;
+}
+
+.killmehpls {
+    background: rgba(0, 0, 0, .5);
+    width: 100%;
+    padding: 10px;
+    margin-top:20px;
+    text-align:center;
+}
+
+.pls {
+    text-align:center;
+}
+
+.button {
+    color:white;
+    background-color:#4CBCB8;
+    padding:20px;
+    margin:25px;
+    text-align:center;
+    border-radius: 12.5px;
+    font: 35px 'Oswald', Helvetica, Arial, sans-serif;
+    display:inline-block;
+}
+
+footer {
+    border: 2px solid transparent;
+    background: rgba(0, 0, 0, .5);
+    padding:5px;
+}
+
+footer ul {
+    padding-right:150px;
+}
+
+footer li {
+    display:inline;
+    float:right;
+    padding-left:20px;
+    padding-right:30px;
+    padding-top:10px;
+    line-height:60px;
+}
+
+footer a {
+    color:white;
+}
+
+footer p {
+    color:white;
+    padding-left:250px;
+}
+footer p, .fa{
+    font-size:150%;
+    vertical-align:center;
+    
+}
+footer{
+    height:20%;
+    box-sizing:border-box;
+}
+
+html{
+    overflow-x:hidden;
+}
